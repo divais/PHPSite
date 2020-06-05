@@ -4,7 +4,7 @@
 	</head>
 	<?php
 	session_start(); //starts the session
-	if($_SESSION['user']){ //checks if user is logged in
+	if($_SESSION['user']){ //checks if user is logged in or not
 	}
 	else{
 		header("location:index.php"); // redirects if user is not logged in
